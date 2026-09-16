@@ -1,5 +1,5 @@
 <header class="site-header">
-    <a class="brand" href="{{ route('home') }}"><span class="logo">▣</span><span><span class="brand-title">Pustaka Digital</span><span class="brand-sub">Perpustakaan Umum Kota</span></span></a>
+    <a class="brand" href="{{ route('home') }}"><span class="logo">▣</span><span><span class="brand-title">Pustaka Digital</span> <span class="brand-sub">Perpustakaan Umum Kota</span></span></a>
     <nav class="nav">
         <a class="{{ request()->routeIs('home')?'active':'' }}" href="{{ route('home') }}">Beranda</a>
         <a class="{{ request()->routeIs('catalog') || request()->routeIs('books.show')?'active':'' }}" href="{{ route('catalog') }}">Katalog</a>
